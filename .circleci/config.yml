@@ -5,6 +5,4 @@ jobs:
       - image: circleci/golang # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: pwd
-      - run: ls
-      - run: bash /demo/helloWorld.sh
+      - run: bash demo/helloWorld.sh
