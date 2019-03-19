@@ -7,3 +7,6 @@
 *.idea*
 # .tfvars files
 *.tfvars
+
+# node modules
+/lambda/node_modules
